@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+<div id="token"></div>
+<div id="current-user-wrapper" align="right">
+    <div id="current-user-login">
+        <button id="current-user-login-button">Войти</button>
+    </div>
+    <div id="current-user">
+        <img id="user-image" alt=""
+             src="https://sun9-66.userapi.com/s/v1/ig2/mSvFdoNZeFm8CUgB-4Cau8_xffAr47YzqTGmQinFypdN0ncwE6V_hx2UQK50pupEG6bn5fSBt9bOQgNRRF6I2nXR.jpg?size=50x0&quality=96&crop=0,133,666,666&ava=1"/>
+        <div id="current-user-menu" align="left">
+            <span id="current-user-name">Имя пользователя</span>
+            <hr>
+            <div id="current-user-logout">Выход</div>
+        </div>
+    </div>
+</div>
+
+<div class="search-box-wrapper">
+    <div id="search-box">
+        <div class="search-box-content">
+            <input type="text" name="" id="search-text" placeholder="Поиск..."/>
+            <a id="search-button">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="search-results">
+
+</div>
+<div id="loading-wrapper" hidden="true">
+    <div class="loading">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <span>Loading</span>
+    </div>
+</div>
+
+<script src="popup.js"></script>
+</body>
+</html>
